@@ -1,0 +1,22 @@
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project]
+name = "OXMAT"
+version = "0.0.1"
+authors = [
+  { name="Ioana Duta", email="ioana.duta@ndcn.ox.ac.uk" },
+]
+description = "A for the processing of the OXMAT data"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/XXXX"
+"Bug Tracker" = "https://github.com/XXXX/issues"

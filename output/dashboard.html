@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../input/style.css" />
+  </head>
+
+  <body>
+    <h1>Alumni Project Dashboard</h1>
+    <h2>Summary</h2>
+    <p>
+      This dashboard contains information about the data collected and analysed
+      as part of the alumni project. I have grouped plots and summaries by theme
+      which you can access using the dropdowns (hopefully)!
+    </p>
+    <br />
+
+    <h2>Data collection summary</h2>
+    <p>
+      Because part of the project is to collect and clean data, I'll start by demonstrating
+      the progress made in the data collection. 
+    </p>
+
+    <h3>What is the structure of the data?</h3>
+    <p>
+      The data is stored in an Excel spreadsheet. There are three areas of data collection:
+        <ul>
+            <li>Alumni information: each student is assigned a unique identifier. 
+                Their course, prior institutions and current location are listed.</li>
+            <li>Alumni jobs: for each alumnus, this records (where known) each job they 
+                have held since leaving the DTC, including employer, title, start and end dates and location.</li>
+            <li>Alumni publications: for each alumnus, this records all publications we've been able
+                to find that they have published. This records title, authors, journal, year and DOI.
+            </li>
+        </ul>
+    </p>
+
+    <h3>Alumni info progress</h3>
+    <p>
+      The following plots show the progress made in data collection. The first plot shows the number of students
+      for which we have collected alumni information, jobs and publications. The second plot shows the number of
+      publications collected.
+    </p>
+    <button type="button" class="collapsible">Data collection progress</button>
+    <div class="content">
+      <img src="../figures/missingness_plot.png" alt="Data Collection Progress" />
+    </div>
+
+    <h2>Student info: what happened pre-DTC?</h2>
+    <h3>Where did they come from?</h3>
+    <p>
+      The following plots shows the distribution of where students were before
+      they came to the DTC. We can look at country and intitution of both the
+      undergraduate and postgraduate study, as well as whether students remained
+      where they started.
+    </p>
+
+    <button type="button" class="collapsible">
+      Institutions & Locations pre-DTC
+    </button>
+    <div class="content">
+      <button type="button" class="collapsible">Universities</button>
+      <div class="content">
+        <img src="../figures/UG_University_pie.png" alt="UG Institution" />
+        <img src="../figures/PG_University_pie.png" alt="PG Institution" />
+      </div>
+
+      <button type="button" class="collapsible">Countries</button>
+      <div class="content">
+        <img src="../figures/UG_Country_pie.png" alt="UG Country" />
+        <img src="../figures/PG_Country_pie.png" alt="PG Country" />
+      </div>
+
+      <button type="button" class="collapsible">
+        Between UG and PG did students move?
+      </button>
+      <div class="content">
+        <img
+          src="../figures/study_country_change_pie.png"
+          alt="UG Same Country"
+        />
+        <img
+          src="../figures/study_university_change_pie.png"
+          alt="UG Same Country"
+        />
+      </div>
+    </div>
+
+    <br />
+
+    <h3>What did they study?</h3>
+    <p>
+      The following plots shows the distribution of what students studied before
+      they came to the DTC. We can look at the subject of both the undergraduate
+      and postgraduate study. Subjects were grouped by 'Category' which is a
+      broad grouping of subjects. For example, 'Mathematics', 'Applied
+      Mathematics' and 'Statistics' etc. are grouped under 'Mathematics'.
+    </p>
+    <button type="button" class="collapsible">UG & PG study</button>
+    <div class="content">
+      <img src="../figures/UG_Category_pie.png" alt="UG Category" />
+      <img src="../figures/PG_Category_pie.png" alt="PG Category" />
+    </div>
+
+    <br />
+
+    <h2>Students by Course</h2>
+    <button type="button" class="collapsible">Course</button>
+    <div class="content">
+      <img src="../figures/course_year_bar.png" alt="Programme" />
+    </div>
+
+    <h2>Graduate info: what are they doing now?</h2>
+
+    <h3>Where are they now?</h3>
+    <p>
+      The following plots shows the distribution of where students are now. We
+      can look at country and intitution of both the undergraduate and
+      postgraduate study.
+    </p>
+    <button type="button" class="collapsible">Locations post-DTC</button>
+    <div class="content">
+      <p>
+        Firstly, on the top level, we can look at what continents graduates have
+        found themselves in.
+      </p>
+      <img src="../figures/continent_pie.png" alt="Continent" />
+      <p>
+        The overwhelming majority are (perhaps predictably) in Europe, with
+        North America far behind in second place. Let's break that down by
+        country.
+      </p>
+      <img src="../figures/country_pie.png" alt="Country" />
+      <p>
+        Unsurprisingly, the UK is the most popular destination. The pie chart
+        also shows that the overwhelming majority of students in North America
+        are in the US.
+      </p>
+      <p>
+        We can take a quick look at where graduates have gone outside of the UK
+        in Europe.
+      </p>
+      <img src="../figures/europe_nouk_country_pie.png" alt="Europe" />
+      <p>
+        Germany is the most popular destination, with Switzerland and Holland
+        following behind.
+      </p>
+      <p>Finally, we can look at where graduates have gone in the UK.</p>
+      <img src="../figures/uk_city_pie.png" alt="UK" />
+    </div>
+
+    We can also look at whether graduates remained in the same country as that
+    which they studied in prior to the DTC.
+
+    <button type="button" class="collapsible">Same country?</button>
+    <div class="content">
+      <img src="../figures/country_change_pie.png" alt="Country Change" />
+      <p>
+        Most graduates have remained in the same country as that which they
+        studied in prior to the DTC.
+      </p>
+    </div>
+    <br />
+
+    <h3>What are they doing?</h3>
+    <p>
+      The following plot shows the distribution of graduates' current sector.
+    </p>
+    <button type="button" class="collapsible">Job Title & Sector</button>
+    <div class="content">
+      <img src="../figures/sector_pie.png" alt="Sector" />
+      <p>
+        Most graduates are in the 'Academic' sector, with 'Research' and
+        'Pharma' following behind.
+      </p>
+    </div>
+
+    <br />
+
+    <h2>Papers and publications</h2>
+    <h3>Graduates' publications since starting with the DTC</h3>
+
+    <br />
+
+    <script src="../input/script.js"></script>
+  </body>
+</html>

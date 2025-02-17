@@ -5,5 +5,6 @@ st.title('Alumni Project: Dashboard')
 
 input_fol = 'input/'
 output_fol = 'output/'
-students = pd.read_csv(f'{input_fol}students.csv')
-papers = pd.read_csv(f'{output_fol}papers.csv')
+csv_fol = f'{output_fol}csv/'
+students = pd.read_excel(f'{input_fol}students.xlsx', sheet_name='Students')
+papers = pd.read_csv(f'{csv_fol}papers.csv')

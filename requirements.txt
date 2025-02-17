@@ -54,7 +54,7 @@ packaging==23.2
 pandas==2.1.4
 parso==0.8.3
 pexpect==4.9.0
-# Pillow==10.1.0
+pillow==11.1.0
 platformdirs==4.2.0
 plotly==5.19.0
 pluggy==1.4.0
@@ -94,7 +94,7 @@ toml==0.10.2
 tomli==2.0.1
 tomlkit==0.12.3
 toolz==0.12.1
-# tornado==6.4
+tornado==6.4.2
 tqdm==4.66.2
 traitlets==5.14.1
 trio==0.24.0

@@ -1,6 +1,6 @@
 [build-system]
-requires = ["pdm-backend"]
-build-backend = "pdm.backend"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
 
 [project]
 name = "alumni_project"
@@ -8,7 +8,7 @@ version = "0.0.1"
 authors = [
   { name="Ioana Duta", email="ioana.duta@ndcn.ox.ac.uk" },
 ]
-description = "A project exploring alimni data"
+description = "A project exploring alumni data"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [

@@ -23,6 +23,10 @@ def save_json(filename, data):
     with open(filename, "w") as f:
         json.dump(data, f)
 
+#########
+# API
+#########
+
 
 def get_papers_elsevier(author_name, affiliation, limit=limit):
     headers = {"X-ELS-APIKey": SCOPUS_API_KEY, "Accept": "application/json"}
@@ -281,7 +285,7 @@ def plotmiss(Xy, n, cmap, label_list, cat_cols=[], filename=None, savefig=False)
     nolist = ["False", "No", "0", "0.0"]
 
     # iterate through and replace as appropriate:
-    # -2 = expected missingness, -1 = unexpected missingness, 
+    # -2 = expected missingness, -1 = unexpected missingness,
     # 0 = no, 1 = yes, 2 = other (eg categorical value given)
     for c in miss.columns:
         col = list(miss[c])

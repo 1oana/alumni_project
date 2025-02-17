@@ -16,7 +16,10 @@ students = pd.read_excel(f"{input}students.xlsx", sheet_name="Students")
 
 to_exclude = [0, "0", np.nan, "nan", "None", "none", "", "Not Found", "Error"]
 
-papers = papers[~papers["openalex_id"].isin(to_exclude)]
+
+######
+# PAPERS
+######
 
 # histogram of citation count
 papers["citation_count"] = papers["citation_count"].astype(float)
@@ -69,6 +72,9 @@ plt.title("Distribution of Papers by Journal")
 plt.savefig(f"{figures}journals_pie.png")
 plt.close()
 
+########
+# PRE DTC
+########
 limit = 5
 # looking at where syudents went to university before the PhD
 for abbr, full in zip(["UG", "PG"], ["Undergraduate", "Postgraduate"]):
@@ -172,7 +178,6 @@ plt.title("Distribution of UK Graduates by City")
 plt.savefig(f"{figures}uk_city_pie.png")
 plt.close()
 
-
 # stacked bar chart of students by course and year
 students["Year"] = students["Year"].astype(int)
 students["Course"] = students["Course"].astype(str)
@@ -187,7 +192,6 @@ plt.close()
 
 # whether graduates moved university between UG and PG
 for col, place in zip(["Country", "University"], ["England", "Oxford"]):
-    
     counts = students.loc[:, [f"UG{col}", f"PG{col}"]]
     counts["same_place"] = None
     counts.loc[counts[f"UG{col}"] == counts[f"PG{col}"], "same_place"] = (
@@ -219,6 +223,33 @@ for col, place in zip(["Country", "University"], ["England", "Oxford"]):
     plt.title(f"Did Students Change {col} Between UG and PG Study?")
     plt.savefig(f"{figures}study_{col.lower()}_change_pie.png")
     plt.close()
+
+# Between UG/PG study and graduating from DTC, did graduates stay in Oxford?
+counts = students.loc[:, ["PGUniversity", "City"]]
+counts["last_known"] = counts["PGUniversity"].copy()
+counts.loc[counts["last_known"].isna(), "last_known"] = students["UGUniversity"]
+counts["place"] = None
+counts.loc[counts["last_known"] == counts["City"], "place"] = "Stayed (Other)"
+counts.loc[counts["last_known"] != counts["City"], "place"] = "Moved (Other)"
+counts.loc[
+    (counts["last_known"].isna()) & (counts["City"].isna()), "place"
+] = "Not Known"
+counts.loc[
+    (counts["last_known"] == 'Oxford') & (counts["City"] == 'Oxford'), "place"
+] = "Stayed in Oxford"
+counts.loc[
+    (counts["last_known"] != 'Oxford') & (counts["City"] == 'Oxford'), "place"
+] = "Moved to Oxford"
+counts.loc[
+    (counts["last_known"] == 'Oxford') & (counts["City"] != 'Oxford'), "place"
+] = "Moved Away From Oxford"
+counts = counts["place"].value_counts().reset_index()
+counts.columns = ["index", "place"]
+plt.pie(counts["place"], labels=counts["index"], autopct="%1.1f%%")
+plt.axis("equal")
+plt.title("Between UG/PG study and graduating from DTC, did graduates stay in Oxford?")
+plt.savefig(f"{figures}oxford_change_pie.png")
+plt.close()
 
 # whether graduates moved university between UG and PG
 counts = students.loc[:, ["PGCountry", "Country"]]
@@ -259,13 +290,13 @@ plt.close()
 # PROGRESS
 ##########
 # how many entries per year are filled?
-cbar = sns.color_palette("hsv", 3)
+cbar = sns.color_palette("prism", 3)
 missingness = students.notna().astype(str)
 missingness[missingness == "True"] = "1"
 missingness[missingness == "False"] = "0"
 missingness[students == 0] = "-1"
 missingness = missingness.astype(int)
-missingness = missingness.loc[:,["Career History", "Job Title", "UGDegree"]]
+missingness = missingness.loc[:, ["Career History", "Job Title", "UGDegree"]]
 label_list = ["Not Found", "Not Filled", "Filled"]
 hm = sns.heatmap(
     missingness, annot=False, yticklabels=False, xticklabels=1, cmap=cbar, linewidths=0

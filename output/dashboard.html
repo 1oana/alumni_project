@@ -23,7 +23,7 @@
     <h3>What is the structure of the data?</h3>
     <p>
       The data is stored in an Excel spreadsheet. There are three areas of data collection:
-        <ul>
+        <ul style="padding-left:20px">
             <li>Alumni information: each student is assigned a unique identifier. 
                 Their course, prior institutions and current location are listed.</li>
             <li>Alumni jobs: for each alumnus, this records (where known) each job they 
@@ -43,6 +43,41 @@
     <button type="button" class="collapsible">Data collection progress</button>
     <div class="content">
       <img src="../figures/missingness_plot.png" alt="Data Collection Progress" />
+    <p>
+      I've chosen the columns shown because:
+        <ul style="padding-left:20px">
+            <li>
+                Career History: the most time-consuming to collect, as it 
+                requires a lot of manual input. This was completed for 
+                starting years up to 2017.
+            </li>
+            <li>
+                Job Title: relatively easy to collect. Indicates whether the person was found,
+                and then whether they had listed a job title. Not all graduates have listed a job,
+                and depending when they started, they may not have left yet.
+            </li>
+            <li>
+                UG Degree: relatively easy to collect. Indicates whether the person was found,
+                and then whether they had listed their degree. (PG not included here because 
+                it was collected at the same time as UG, and not everyone has done both).
+            </li> 
+        </ul>
+    </p>
+    <p>
+        The categories are as follows:
+        <ul style="padding-left:20px">
+            <li>
+                'Filled' means that the data was collected and recorded
+            </li>
+            <li>
+                'Not Filled' means that the data was not collected
+            </li>
+            <li>
+                'Not Found' means that the data would have been collected, 
+                but it cannot be found (eg the student didn't list it, or it's not applicable)
+            </li>
+        </ul>
+    </p>
     </div>
 
     <h2>Student info: what happened pre-DTC?</h2>
@@ -155,8 +190,9 @@
     <div class="content">
       <img src="../figures/country_change_pie.png" alt="Country Change" />
       <p>
-        Most graduates have remained in the same country as that which they
-        studied in prior to the DTC.
+        Additionally, did people stay in Oxford specifically? That is, if they studied in Oxford prior to the DTC, 
+        did they stay in Oxford? If they didn't, did they remain there after leaving the DTC?
+        <img src="../figures/oxford_change_pie.png" alt="Oxford Change" />
       </p>
     </div>
     <br />

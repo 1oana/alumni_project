@@ -4,6 +4,7 @@ venv/
 input/json/
 input/students.xlsx
 input/students*.xlsx
+input
 
 output/csv/
 output/json/
@@ -15,3 +16,4 @@ flights.py
 __pycache__/
 
 .DS_Store
+input/degrees.json

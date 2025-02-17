@@ -3,7 +3,7 @@ requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
 [project]
-name = "AlumniProject"
+name = "alumni-project"
 version = "0.0.1"
 authors = [
   { name="Ioana Duta", email="ioana.duta@ndcn.ox.ac.uk" },

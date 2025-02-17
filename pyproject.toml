@@ -3,12 +3,12 @@ requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
 [project]
-name = "OXMAT"
+name = "AlumniProject"
 version = "0.0.1"
 authors = [
   { name="Ioana Duta", email="ioana.duta@ndcn.ox.ac.uk" },
 ]
-description = "A for the processing of the OXMAT data"
+description = "A project exploring alimni data"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [

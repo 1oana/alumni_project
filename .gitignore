@@ -18,3 +18,5 @@ __pycache__/
 .DS_Store
 input/degrees.json
 requirements_saved.txt
+
+output/linkedin_scrape/

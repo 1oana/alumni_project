@@ -1,6 +1,6 @@
 import requests
 import json
-from credentials import SCOPUS_API_KEY, SEMANTIC_API_KEY
+from credentials import SCOPUS_API_KEY, SS_KEY
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -22,6 +22,7 @@ def load_json(filename):
 def save_json(filename, data):
     with open(filename, "w") as f:
         json.dump(data, f)
+
 
 #########
 # API
@@ -83,26 +84,45 @@ def get_papers_elsevier(author_name, affiliation, limit=limit):
     return text
 
 
-def get_papers_ssemantic():
-    AUTHOR_NAME = "John Doe"
-    AFFILIATION = "Harvard University"
+# Function to fetch an author's Semantic Scholar ID using ORCID
+def get_semantic_author_id(orcid, api_key):
+    ss_url = "https://api.semanticscholar.org/"
+    query = f"{orcid}&fields=authorId,name"
+    query = f"{'https://orcid.org/' + orcid}"
+    url = f"{ss_url}graph/v1/author/search?query={query}"
+    headers = {"x-api-key": api_key}
 
+    response = requests.get(url, headers=headers)
+    print(response.json())
+    print('=========')
+    print(response.status_code)
+
+    if response.status_code == 200:
+        authors = response.json().get("data", [])
+        if authors:
+            return authors[0]["authorId"], authors[0]["name"]
+    return None, None
+
+
+def get_papers_semantic(name, orcid):
     # Search for author
     ss_url = "https://api.semanticscholar.org/"
-    query = f"{AUTHOR_NAME}&fields=authorId,name,affiliations"
-    author_search_url = f"{ss_url}graph/v1/author/search?query={query}"
-    headers = {"x-api-key": SEMANTIC_API_KEY}
-
-    response = requests.get(author_search_url, headers=headers)
-    authors = response.json().get("data", [])
+    headers = {"x-api-key": SS_KEY}
 
     # Find matching author based on affiliation
-    author_id = None
-    for author in authors:
-        if AFFILIATION.lower() in str(author.get("affiliations", [])).lower():
-            author_id = author["authorId"]
-            break
+    author_id, author_name = get_semantic_author_id(orcid, SS_KEY)
 
+    dic = {
+        "name_orig": [],
+        "name_srcd": [],
+        "orcid": [],
+        "ss_id": [],
+        "dois": [],
+        "titles": [],
+        "journals": [],
+        "years": [],
+        "citation_count": [],
+    }
     if author_id:
         # Fetch papers by this author
         fields = "papers.title,papers.year,papers.journal,papers.venue"
@@ -111,10 +131,19 @@ def get_papers_ssemantic():
         papers = response.json().get("papers", [])
 
         for paper in papers:
-            print(
-                f"{paper['title']} ({paper['year']}) - ",
-                f"{paper.get('journal', paper.get('venue', 'Unknown'))}"
-            )
+            print(paper)
+
+            dic["name_orig"].append(name)
+            dic["name_srcd"].append(author_name)
+            dic["orcid"].append(orcid)
+            dic["ss_id"].append(author_id)
+            dic["dois"].append("Unknown")
+            dic["titles"].append(paper["title"])
+            dic["journals"].append(paper.get("journal", paper.get("venue", "Unknown")))
+            dic["years"].append(paper["year"])
+            dic["citation_count"].append("Unknown")
+
+        return dic
     else:
         print("Author not found.")
 
@@ -181,7 +210,7 @@ def name_open_alex(AUTHOR_NAME, AFFILIATION):
         print("Author not found.")
 
 
-def orcid_open_alex(ORCID, author_dic, name_given):
+def orcid_open_alex(ORCID, author_dic, name_given, aff="University of Oxford"):
     # Search author
     orcid_text = f"https://orcid.org/{ORCID}"
     author_url = f"https://api.openalex.org/authors/{orcid_text}"
@@ -193,7 +222,9 @@ def orcid_open_alex(ORCID, author_dic, name_given):
         if author_data:
             author_id = author_data["id"]
             print(author_id)
-            papers_url = f"https://api.openalex.org/works?filter=author.id:{author_id}"
+            papers_url = (
+                f"https://api.openalex.org/works?filter=author.id:{author_id}+{aff}"
+            )
             papers_response = requests.get(papers_url)
             papers = papers_response.json()["results"]
 

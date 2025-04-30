@@ -1,0 +1,556 @@
+{
+    "id": "nNBDFTi9LsbkSVoTzFBYBQ_0000",
+    "full_name": "ioana duta",
+    "first_name": "ioana",
+    "middle_initial": "None",
+    "middle_name": "None",
+    "last_initial": "d",
+    "last_name": "duta",
+    "sex": "female",
+    "linkedin_url": "linkedin.com/in/ioana-duta",
+    "linkedin_username": "ioana-duta",
+    "linkedin_id": "608692060",
+    "facebook_url": "None",
+    "facebook_username": "None",
+    "facebook_id": "None",
+    "twitter_url": "None",
+    "twitter_username": "None",
+    "github_url": "None",
+    "github_username": "None",
+    "industry": "research",
+    "job_title": "research assistant",
+    "job_title_role": "education",
+    "job_title_sub_role": "researcher",
+    "job_title_levels": [],
+    "job_company_id": "C3ECmDeBi5lOETuShFtTQAhtiVLz",
+    "job_company_name": "nuffield dept of women's & reproductive health, university of oxford",
+    "job_company_website": "wrh.ox.ac.uk",
+    "job_company_size": "51-200",
+    "job_company_founded": 1937,
+    "job_company_industry": "research",
+    "job_company_linkedin_url": "linkedin.com/company/nuffield-dept-of-obstetrics-&-gynaecology--university-of-oxford",
+    "job_company_linkedin_id": "10545149",
+    "job_company_facebook_url": "None",
+    "job_company_twitter_url": "None",
+    "job_company_location_name": "united kingdom",
+    "job_company_location_locality": "None",
+    "job_company_location_metro": "None",
+    "job_company_location_region": "None",
+    "job_company_location_geo": "None",
+    "job_company_location_street_address": "None",
+    "job_company_location_address_line_2": "None",
+    "job_company_location_postal_code": "None",
+    "job_company_location_country": "united kingdom",
+    "job_company_location_continent": "europe",
+    "job_last_changed": "2024-07-20",
+    "job_last_verified": "2024-11-18",
+    "job_start_date": "2023-10",
+    "location_country": "united kingdom",
+    "location_continent": "europe",
+    "location_last_updated": "2022-08-09",
+    "interests": [],
+    "skills": [],
+    "countries": [
+        "united kingdom"
+    ],
+    "experience": [
+        {
+            "company": {
+                "name": "magdalen college school oxford limited",
+                "size": "201-500",
+                "id": "WVuP1nsX0nPUz95IeDITfAsbOuOw",
+                "founded": "None",
+                "industry": "primary/secondary education",
+                "location": {
+                    "name": "oxford, oxfordshire, united kingdom",
+                    "locality": "oxford",
+                    "region": "oxfordshire",
+                    "metro": "None",
+                    "country": "united kingdom",
+                    "continent": "europe",
+                    "street_address": "None",
+                    "address_line_2": "None",
+                    "postal_code": "None",
+                    "geo": "51.75,-1.25",
+                    "first_seen": "None",
+                    "last_seen": "None",
+                    "num_sources": "None"
+                },
+                "linkedin_url": "linkedin.com/company/magdalen-college-school-oxford-limited",
+                "linkedin_id": "20025619",
+                "facebook_url": "None",
+                "twitter_url": "None",
+                "website": "mcsoxford.org",
+                "ticker": "None",
+                "type": "educational",
+                "raw": [
+                    "magdalen college school oxford limited"
+                ],
+                "fuzzy_match": "False"
+            },
+            "location_names": [
+                "oxford, oxfordshire, united kingdom"
+            ],
+            "end_date": "2018-07",
+            "start_date": "2018-01",
+            "title": {
+                "name": "marketing communications assistant",
+                "raw": [
+                    "marketing communications assistant"
+                ],
+                "class_v2": "sales_and_marketing",
+                "role": "marketing",
+                "role_v2": "marketing",
+                "sub_role": "marketing_communications",
+                "sub_role_v2": "brand",
+                "levels": []
+            },
+            "is_primary": "False",
+            "summary": "Worked part of a busy marketing and admin office which required exercise of negotiation skills while interacting across all school hierarchical levels, from students to head of schools. Produced, designed and curated press releases, news items, and social media posts. Worked on the design and scripting for the school website and that of the Oxford Festival of the Arts. Took, edited and curated formal photographs and videos of school events and for school publications.",
+            "num_sources": 1,
+            "first_seen": "2021-02-18",
+            "last_seen": "2024-11-18"
+        },
+        {
+            "company": {
+                "name": "university of oxford",
+                "size": "10001+",
+                "id": "LNXSruqpgmWr7us0CfqqwAvpojhf",
+                "founded": 1096,
+                "industry": "research",
+                "location": {
+                    "name": "oxford, oxfordshire, united kingdom",
+                    "locality": "oxford",
+                    "region": "oxfordshire",
+                    "metro": "None",
+                    "country": "united kingdom",
+                    "continent": "europe",
+                    "street_address": "None",
+                    "address_line_2": "None",
+                    "postal_code": "None",
+                    "geo": "51.75,-1.25",
+                    "first_seen": "None",
+                    "last_seen": "None",
+                    "num_sources": "None"
+                },
+                "linkedin_url": "linkedin.com/company/university-of-oxford",
+                "linkedin_id": "4477",
+                "facebook_url": "facebook.com/the.university.of.oxford",
+                "twitter_url": "None",
+                "website": "oriel.ox.ac.uk",
+                "ticker": "None",
+                "type": "private",
+                "raw": [
+                    "university of oxford"
+                ],
+                "fuzzy_match": "False"
+            },
+            "location_names": [],
+            "end_date": "2017-12",
+            "start_date": "2017-11",
+            "title": {
+                "name": "intern - assistant to lab manager",
+                "raw": [
+                    "intern - assistant to lab manager"
+                ],
+                "class_v2": "research_and_development",
+                "role": "education",
+                "role_v2": "research",
+                "sub_role": "researcher",
+                "sub_role_v2": "scientific",
+                "levels": [
+                    "training"
+                ]
+            },
+            "is_primary": "False",
+            "summary": "Assisted with administrative tasks related to participant recruitment and running experiments. Shadowed researchers running studies and liaised with participants and their parents.",
+            "num_sources": 1,
+            "first_seen": "2021-02-18",
+            "last_seen": "2024-11-18"
+        },
+        {
+            "company": {
+                "name": "nuffield dept of women's & reproductive health, university of oxford",
+                "size": "51-200",
+                "id": "C3ECmDeBi5lOETuShFtTQAhtiVLz",
+                "founded": 1937,
+                "industry": "research",
+                "location": {
+                    "name": "united kingdom",
+                    "locality": "None",
+                    "region": "None",
+                    "metro": "None",
+                    "country": "united kingdom",
+                    "continent": "europe",
+                    "street_address": "None",
+                    "address_line_2": "None",
+                    "postal_code": "None",
+                    "geo": "None",
+                    "first_seen": "None",
+                    "last_seen": "None",
+                    "num_sources": "None"
+                },
+                "linkedin_url": "linkedin.com/company/nuffield-dept-of-obstetrics-&-gynaecology--university-of-oxford",
+                "linkedin_id": "10545149",
+                "facebook_url": "None",
+                "twitter_url": "None",
+                "website": "wrh.ox.ac.uk",
+                "ticker": "None",
+                "type": "educational",
+                "raw": [
+                    "nuffield dept of women's & reproductive health, university of oxford"
+                ],
+                "fuzzy_match": "False"
+            },
+            "location_names": [],
+            "end_date": "None",
+            "start_date": "2023-10",
+            "title": {
+                "name": "research assistant",
+                "raw": [
+                    "research assistant (ai)"
+                ],
+                "class_v2": "research_and_development",
+                "role": "education",
+                "role_v2": "research",
+                "sub_role": "researcher",
+                "sub_role_v2": "None",
+                "levels": []
+            },
+            "is_primary": "True",
+            "summary": "* Developed a pre-processing and curation pipeline designed to clean and merge large-scale healthcare datasets drawn from electronic patient record systems.\n* Designed and produced a comprehensive documentation / catalogue site of large-scale data to enable collaboration and\n* Contributed to scientific publications: nature.com/articles/s44294-024-00028-w, arxiv.org/pdf/2404.08024\n* Presented my work at an international conference",
+            "num_sources": 1,
+            "first_seen": "2024-07-20",
+            "last_seen": "2024-11-18"
+        },
+        {
+            "company": {
+                "name": "nuffield department of clinical neurosciences, university of oxford",
+                "size": "201-500",
+                "id": "FLPlQ0xb62fkEDOTcSwVlggfUik5",
+                "founded": "None",
+                "industry": "higher education",
+                "location": {
+                    "name": "oxford, oxfordshire, united kingdom",
+                    "locality": "oxford",
+                    "region": "oxfordshire",
+                    "metro": "None",
+                    "country": "united kingdom",
+                    "continent": "europe",
+                    "street_address": "None",
+                    "address_line_2": "None",
+                    "postal_code": "None",
+                    "geo": "51.75,-1.25",
+                    "first_seen": "None",
+                    "last_seen": "None",
+                    "num_sources": "None"
+                },
+                "linkedin_url": "linkedin.com/company/nuffield-department-of-clinical-neurosciences-university-of-oxford",
+                "linkedin_id": "86906879",
+                "facebook_url": "None",
+                "twitter_url": "None",
+                "website": "ndcn.ox.ac.uk",
+                "ticker": "None",
+                "type": "private",
+                "raw": [
+                    "nuffield department of clinical neurosciences, university of oxford"
+                ],
+                "fuzzy_match": "False"
+            },
+            "location_names": [],
+            "end_date": "None",
+            "start_date": "2022-10",
+            "title": {
+                "name": "data scientist",
+                "raw": [
+                    "data scientist"
+                ],
+                "class_v2": "research_and_development",
+                "role": "engineering",
+                "role_v2": "engineering",
+                "sub_role": "data",
+                "sub_role_v2": "data_science",
+                "levels": []
+            },
+            "is_primary": "False",
+            "summary": "Within Nuffield Department of Clinical Neurosciences",
+            "num_sources": 1,
+            "first_seen": "2024-07-20",
+            "last_seen": "2024-11-18"
+        },
+        {
+            "company": {
+                "name": "diamond light source",
+                "size": "501-1000",
+                "id": "Cd1f5xJ7wTJMZDhQ9hvplg2CeVlW",
+                "founded": 2002,
+                "industry": "research",
+                "location": {
+                    "name": "didcot, oxfordshire, united kingdom",
+                    "locality": "didcot",
+                    "region": "oxfordshire",
+                    "metro": "None",
+                    "country": "united kingdom",
+                    "continent": "europe",
+                    "street_address": "None",
+                    "address_line_2": "None",
+                    "postal_code": "None",
+                    "geo": "51.6,-1.25",
+                    "first_seen": "None",
+                    "last_seen": "None",
+                    "num_sources": "None"
+                },
+                "linkedin_url": "linkedin.com/company/diamond-light-source",
+                "linkedin_id": "34832",
+                "facebook_url": "facebook.com/diamondlightsource",
+                "twitter_url": "twitter.com/diamondlightsou",
+                "website": "diamond.ac.uk",
+                "ticker": "None",
+                "type": "nonprofit",
+                "raw": [
+                    "diamond light source"
+                ],
+                "fuzzy_match": "False"
+            },
+            "location_names": [],
+            "end_date": "2021-09",
+            "start_date": "2021-06",
+            "title": {
+                "name": "summer placement student",
+                "raw": [
+                    "summer placement student"
+                ],
+                "class_v2": "services",
+                "role": "None",
+                "role_v2": "education",
+                "sub_role": "None",
+                "sub_role_v2": "student",
+                "levels": []
+            },
+            "is_primary": "False",
+            "summary": "Investigated the low intake of female engineering apprentices and designed changes to the communications surrounding recruitment to mitigate this. One of my outputs was a section of the website: https://www.diamond.ac.uk/Careers/Apprenticeships.html ( dynamic pages)",
+            "num_sources": 2,
+            "first_seen": "2021-08-28",
+            "last_seen": "2024-11-18"
+        },
+        {
+            "company": {
+                "name": "oxbridge learning limited",
+                "size": "1-10",
+                "id": "bsKX7gbq2sMHnF3ruBcwdA2LLYdw",
+                "founded": 2011,
+                "industry": "education management",
+                "location": {
+                    "name": "oxford, oxfordshire, united kingdom",
+                    "locality": "oxford",
+                    "region": "oxfordshire",
+                    "metro": "None",
+                    "country": "united kingdom",
+                    "continent": "europe",
+                    "street_address": "None",
+                    "address_line_2": "None",
+                    "postal_code": "None",
+                    "geo": "51.75,-1.25",
+                    "first_seen": "None",
+                    "last_seen": "None",
+                    "num_sources": "None"
+                },
+                "linkedin_url": "linkedin.com/company/oxbridge-learning-limited",
+                "linkedin_id": "20894874",
+                "facebook_url": "None",
+                "twitter_url": "None",
+                "website": "oxbridgelearninglimited.com",
+                "ticker": "None",
+                "type": "private",
+                "raw": [
+                    "oxbridge learning limited"
+                ],
+                "fuzzy_match": "False"
+            },
+            "location_names": [
+                "oxford, oxfordshire, united kingdom"
+            ],
+            "end_date": "2019-12",
+            "start_date": "2019-08",
+            "title": {
+                "name": "activity leader",
+                "raw": [
+                    "activity leader"
+                ],
+                "class_v2": "None",
+                "role": "None",
+                "role_v2": "None",
+                "sub_role": "None",
+                "sub_role_v2": "None",
+                "levels": [
+                    "manager"
+                ]
+            },
+            "is_primary": "False",
+            "summary": "Led student activities, including team building and sporting activities. Took pictures of the events and curated Oxbridge Summers' social media . Staffed the Oxbridge Summers Office & assisted with administration. Acted to fill the roles of peer advisor, role model, and administrator. Set up the Director's school tour by liaising with travel agencies. Identifed and liaised with top high schools in target locations and to set up Director's meetings with them.",
+            "num_sources": 5,
+            "first_seen": "2019-12-07",
+            "last_seen": "2024-11-18"
+        }
+    ],
+    "education": [
+        {
+            "school": {
+                "name": "magdalen college school, oxford",
+                "type": "post-secondary institution",
+                "id": "qOzEbwsn7zmkZDPeXU-MvQ_0",
+                "location": {
+                    "name": "oxford, oxfordshire, united kingdom",
+                    "locality": "oxford",
+                    "region": "oxfordshire",
+                    "metro": "None",
+                    "country": "united kingdom",
+                    "continent": "europe",
+                    "street_address": "None",
+                    "address_line_2": "None",
+                    "postal_code": "None",
+                    "geo": "None",
+                    "first_seen": "None",
+                    "last_seen": "None",
+                    "num_sources": "None"
+                },
+                "linkedin_url": "linkedin.com/school/magdalen-college-school-oxford-limited",
+                "facebook_url": "None",
+                "twitter_url": "None",
+                "linkedin_id": "None",
+                "website": "mcsoxford.org",
+                "domain": "mcsoxford.org",
+                "raw": [
+                    "magdalen college school, oxford"
+                ]
+            },
+            "degrees": [],
+            "start_date": "2015",
+            "end_date": "2017",
+            "majors": [],
+            "minors": [],
+            "gpa": "None",
+            "raw": [
+                "a levels"
+            ],
+            "summary": "None"
+        },
+        {
+            "school": {
+                "name": "oxford high school gdst",
+                "type": "secondary school",
+                "id": "None",
+                "location": "None",
+                "linkedin_url": "None",
+                "facebook_url": "None",
+                "twitter_url": "None",
+                "linkedin_id": "None",
+                "website": "None",
+                "domain": "None",
+                "raw": [
+                    "oxford high school gdst"
+                ]
+            },
+            "degrees": [],
+            "start_date": "2010",
+            "end_date": "2015",
+            "majors": [],
+            "minors": [],
+            "gpa": "None",
+            "raw": [
+                "english, maths, double award science, mandarin, latin, classical greek, history, rs",
+                "gcse"
+            ],
+            "summary": "None"
+        },
+        {
+            "school": {
+                "name": "imperial college london",
+                "type": "post-secondary institution",
+                "id": "E5LoRfaJ9wBCgJqIyBp5Iw_0",
+                "location": {
+                    "name": "london, greater london, united kingdom",
+                    "locality": "london",
+                    "region": "greater london",
+                    "metro": "None",
+                    "country": "united kingdom",
+                    "continent": "europe",
+                    "street_address": "None",
+                    "address_line_2": "None",
+                    "postal_code": "None",
+                    "geo": "None",
+                    "first_seen": "None",
+                    "last_seen": "None",
+                    "num_sources": "None"
+                },
+                "linkedin_url": "linkedin.com/school/imperial-college-business-school",
+                "facebook_url": "facebook.com/imperialcollegelondon",
+                "twitter_url": "twitter.com/imperialcollege",
+                "linkedin_id": "2661479",
+                "website": "imperial.ac.uk",
+                "domain": "imperial.ac.uk",
+                "raw": [
+                    "imperial college london"
+                ]
+            },
+            "degrees": [
+                "master of science",
+                "masters",
+                "bachelors",
+                "bachelor of science"
+            ],
+            "start_date": "2018",
+            "end_date": "2022",
+            "majors": [
+                "mathematics"
+            ],
+            "minors": [],
+            "gpa": "None",
+            "raw": [
+                "mathematics",
+                "master of science - msci (incorporated bsc)"
+            ],
+            "summary": "None"
+        }
+    ],
+    "profiles": [
+        {
+            "network": "linkedin",
+            "id": "608692060",
+            "url": "linkedin.com/in/ioana-duta",
+            "username": "ioana-duta",
+            "num_sources": 2,
+            "first_seen": "2022-11-22",
+            "last_seen": "2024-11-18"
+        },
+        {
+            "network": "linkedin",
+            "id": "608692060",
+            "url": "linkedin.com/in/ioana-duta-424a2414b",
+            "username": "ioana-duta-424a2414b",
+            "num_sources": 10,
+            "first_seen": "2019-06-12",
+            "last_seen": "2022-12-12"
+        }
+    ],
+    "dataset_version": "29.0",
+    "birth_date": "False",
+    "birth_year": "False",
+    "emails": "False",
+    "location_address_line_2": "False",
+    "location_geo": "False",
+    "location_locality": "True",
+    "location_metro": "False",
+    "location_name": "True",
+    "location_names": "True",
+    "location_postal_code": "False",
+    "location_region": "True",
+    "location_street_address": "False",
+    "mobile_phone": "False",
+    "personal_emails": "False",
+    "phone_numbers": "False",
+    "recommended_personal_email": "False",
+    "regions": "True",
+    "street_addresses": "False",
+    "work_email": "False"
+}

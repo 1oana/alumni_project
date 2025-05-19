@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-05-19">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="Adam Auton" label="Adam Auton" />
+      <node id="Eleni Giannoulatou" label="Eleni Giannoulatou" />
+      <node id="Susanne Pfeifer" label="Susanne Pfeifer" />
+      <node id="Gary Mirams" label="Gary Mirams" />
+      <node id="Rafel Bordas" label="Rafel Bordas" />
+      <node id="Christopher Arthurs" label="Christopher Arthurs" />
+      <node id="Chon Lok Lei" label="Chon Lok Lei" />
+      <node id="Kylie Beattie" label="Kylie Beattie" />
+      <node id="Valentina Carapella" label="Valentina Carapella" />
+      <node id="Loukas Moutsianas" label="Loukas Moutsianas" />
+      <node id="Isaac Turner" label="Isaac Turner" />
+      <node id="Kit Yates" label="Kit Yates" />
+      <node id="Lorenz Berger" label="Lorenz Berger" />
+      <node id="Gabriel Rosser" label="Gabriel Rosser" />
+      <node id="Jake Taylor-King" label="Jake Taylor-King" />
+      <node id="Eoin Hyde" label="Eoin Hyde" />
+      <node id="Louise Dyson" label="Louise Dyson" />
+      <node id="Lloyd Chapman" label="Lloyd Chapman" />
+      <node id="Philip Gemmell" label="Philip Gemmell" />
+      <node id="Oliver Britton" label="Oliver Britton" />
+      <node id="Anna Muszkiewicz" label="Anna Muszkiewicz" />
+      <node id="Mohamad Azim Ansari" label="Mohamad Azim Ansari" />
+      <node id="Ashwin Kumar Jainarayanan" label="Ashwin Kumar Jainarayanan" />
+      <node id="Anna James-Bott" label="Anna James-Bott" />
+      <node id="Jonas Schluter" label="Jonas Schluter" />
+      <node id="Katharine Coyte" label="Katharine Coyte" />
+      <node id="Rene Niehus" label="Rene Niehus" />
+      <node id="Konrad Krawczyk" label="Konrad Krawczyk" />
+      <node id="Jinwoo Leem" label="Jinwoo Leem" />
+      <node id="Matthew Raybould" label="Matthew Raybould" />
+      <node id="Alex Kovaltsuk" label="Alex Kovaltsuk" />
+      <node id="Cristian Regep" label="Cristian Regep" />
+      <node id="Jake Galson" label="Jake Galson" />
+      <node id="Anna Frangou" label="Anna Frangou" />
+      <node id="Marketa Tomkova" label="Marketa Tomkova" />
+      <node id="Jakub Tomek" label="Jakub Tomek" />
+      <node id="Isabel Frost" label="Isabel Frost" />
+      <node id="Nicola Trendel" label="Nicola Trendel" />
+      <node id="Tammo Rukat" label="Tammo Rukat" />
+      <node id="Jacob Bush" label="Jacob Bush" />
+      <node id="Joseph Mason" label="Joseph Mason" />
+      <node id="Linus Schumacher" label="Linus Schumacher" />
+      <node id="Mathew Stracy" label="Mathew Stracy" />
+      <node id="Aleksander Zagajewski" label="Aleksander Zagajewski" />
+      <node id="Angelina Measures (Sekirnik)" label="Angelina Measures (Sekirnik)" />
+      <node id="David Ascough" label="David Ascough" />
+      <node id="Jos Kamps" label="Jos Kamps" />
+      <node id="Mustafa Moroglu" label="Mustafa Moroglu" />
+      <node id="Amy Scorah" label="Amy Scorah" />
+      <node id="Joseph Bluck" label="Joseph Bluck" />
+      <node id="Stefan Verhoog" label="Stefan Verhoog" />
+      <node id="Michael Tilby" label="Michael Tilby" />
+      <node id="Huw Colin York" label="Huw Colin York" />
+      <node id="Liliana Barbieri" label="Liliana Barbieri" />
+      <node id="Matteo Aldeghi" label="Matteo Aldeghi" />
+      <node id="David Zollman" label="David Zollman" />
+      <node id="Samuel Cahill" label="Samuel Cahill" />
+      <node id="Connor Sharp" label="Connor Sharp" />
+      <node id="Marie-Louise Francis" label="Marie-Louise Francis" />
+      <node id="Gareth Langley" label="Gareth Langley" />
+      <node id="Mariska De Munnik" label="Mariska De Munnik" />
+      <node id="Tika Malla" label="Tika Malla" />
+      <node id="Isabel Wilkinson" label="Isabel Wilkinson" />
+      <node id="Marion Schuller" label="Marion Schuller" />
+      <node id="Moses Moustakim" label="Moses Moustakim" />
+      <node id="Oliver Meacock" label="Oliver Meacock" />
+      <node id="Alessandro Alcinesio" label="Alessandro Alcinesio" />
+      <node id="Idil Cazimoglu" label="Idil Cazimoglu" />
+      <node id="Thomas Meiller-Legrand" label="Thomas Meiller-Legrand" />
+      <node id="Florian Klimm" label="Florian Klimm" />
+      <node id="Lyuba Bozhilova" label="Lyuba Bozhilova" />
+      <node id="Ruchuta Ardkhean" label="Ruchuta Ardkhean" />
+      <node id="(YaoYao) Jane Xiong" label="(YaoYao) Jane Xiong" />
+      <node id="Oliver Coleman" label="Oliver Coleman" />
+      <node id="Grace Roper" label="Grace Roper" />
+      <node id="Kathryn Gwennyth Leslie" label="Kathryn Gwennyth Leslie" />
+      <node id="Anish Dattani" label="Anish Dattani" />
+      <node id="Jakke Neiro" label="Jakke Neiro" />
+      <node id="Lydia France" label="Lydia France" />
+      <node id="Sofia Minano Gonzalez" label="Sofia Minano Gonzalez" />
+      <node id="Anna Thamm" label="Anna Thamm" />
+      <node id="Susanna Streubel" label="Susanna Streubel" />
+      <node id="Robert Szpera" label="Robert Szpera" />
+      <node id="Danny Axford" label="Danny Axford" />
+      <node id="James Linyard" label="James Linyard" />
+      <node id="Nick Crang" label="Nick Crang" />
+      <node id="Carolin Schulte" label="Carolin Schulte" />
+      <node id="Vaanathi Sundaresan" label="Vaanathi Sundaresan" />
+      <node id="Emma Bluemke" label="Emma Bluemke" />
+      <node id="Nicola Dinsdale" label="Nicola Dinsdale" />
+      <node id="Fergus Boyles" label="Fergus Boyles" />
+      <node id="Brennan Abanades Kenyon" label="Brennan Abanades Kenyon" />
+      <node id="Marc Moesser" label="Marc Moesser" />
+      <node id="James Whittington" label="James Whittington" />
+      <node id="Jacob Bakermans" label="Jacob Bakermans" />
+      <node id="Mark Chonofsky" label="Mark Chonofsky" />
+      <node id="Anna Carbery" label="Anna Carbery" />
+      <node id="Thomas Rawson" label="Thomas Rawson" />
+      <node id="Dessislava Veltcheva" label="Dessislava Veltcheva" />
+      <node id="Natasha Gillies" label="Natasha Gillies" />
+      <node id="Joe Wynn" label="Joe Wynn" />
+      <node id="Joe Morford" label="Joe Morford" />
+      <node id="Paris Jaggers" label="Paris Jaggers" />
+      <node id="Nattapong Sanguankiattichai" label="Nattapong Sanguankiattichai" />
+      <node id="Riccardo Soldan" label="Riccardo Soldan" />
+      <node id="Samuel Aroney" label="Samuel Aroney" />
+      <node id="Hayley Knights" label="Hayley Knights" />
+      <node id="Brandon Ford" label="Brandon Ford" />
+      <node id="Shahaan Shafiq" label="Shahaan Shafiq" />
+      <node id="Heather Jeffery" label="Heather Jeffery" />
+      <node id="Steven Fiddaman" label="Steven Fiddaman" />
+      <node id="Stefan Dascalu" label="Stefan Dascalu" />
+      <node id="Holly Everest" label="Holly Everest" />
+      <node id="Alexandra Casey" label="Alexandra Casey" />
+      <node id="Samuel Caygill" label="Samuel Caygill" />
+      <node id="Mpho Makola" label="Mpho Makola" />
+      <node id="Hazel Aitkenhead" label="Hazel Aitkenhead" />
+      <node id="Marianne Aspbury" label="Marianne Aspbury" />
+      <node id="Simon Marchant" label="Simon Marchant" />
+      <node id="Thomas Hadfield" label="Thomas Hadfield" />
+      <node id="Jack Scantlebury" label="Jack Scantlebury" />
+      <node id="Solveig Van Der Vegt" label="Solveig Van Der Vegt" />
+      <node id="Scott Bonner" label="Scott Bonner" />
+      <node id="Mahan Ghafari" label="Mahan Ghafari" />
+      <node id="Matthew Herdman" label="Matthew Herdman" />
+      <node id="Dimitrios Kolokouris" label="Dimitrios Kolokouris" />
+      <node id="Madeleine Wyburd" label="Madeleine Wyburd" />
+      <node id="Felipe Moser" label="Felipe Moser" />
+      <node id="Emmanouil Alexis" label="Emmanouil Alexis" />
+      <node id="Zonghua Bo" label="Zonghua Bo" />
+      <node id="Aidan Kerckhoffs" label="Aidan Kerckhoffs" />
+      <node id="Ryan Emmett Peter McNamee" label="Ryan Emmett Peter McNamee" />
+      <node id="Helena Pickford" label="Helena Pickford" />
+      <node id="Pearse Solon" label="Pearse Solon" />
+      <node id="Mihai Viorel Popescu" label="Mihai Viorel Popescu" />
+      <node id="Tobias John" label="Tobias John" />
+      <node id="Jai Bolton" label="Jai Bolton" />
+      <node id="Jacques Bouvier" label="Jacques Bouvier" />
+      <node id="Jochem Nielsen" label="Jochem Nielsen" />
+      <node id="Anastasia Unitt" label="Anastasia Unitt" />
+      <node id="Charlotte Hoskin" label="Charlotte Hoskin" />
+      <node id="Holly Bunce" label="Holly Bunce" />
+      <node id="Antoine de Gombert" label="Antoine de Gombert" />
+      <node id="Xinlan Aloise Ford Cook" label="Xinlan Aloise Ford Cook" />
+      <node id="Lucy Harwood" label="Lucy Harwood" />
+      <node id="Alistair John Sterling" label="Alistair John Sterling" />
+      <node id="Felix Homma" label="Felix Homma" />
+      <node id="Mihaela Smilova" label="Mihaela Smilova" />
+      <node id="Andrea Chatrian" label="Andrea Chatrian" />
+      <node id="Ka Ho Tam" label="Ka Ho Tam" />
+      <node id="Raphael Reinbold" label="Raphael Reinbold" />
+    </nodes>
+    <edges>
+      <edge source="Adam Auton" target="Eleni Giannoulatou" id="0" weight="1" />
+      <edge source="Adam Auton" target="Susanne Pfeifer" id="1" weight="2" />
+      <edge source="Eleni Giannoulatou" target="Loukas Moutsianas" id="2" weight="1" />
+      <edge source="Eleni Giannoulatou" target="Susanne Pfeifer" id="3" weight="1" />
+      <edge source="Eleni Giannoulatou" target="Isaac Turner" id="4" weight="1" />
+      <edge source="Susanne Pfeifer" target="Isaac Turner" id="5" weight="1" />
+      <edge source="Gary Mirams" target="Rafel Bordas" id="6" weight="3" />
+      <edge source="Gary Mirams" target="Christopher Arthurs" id="7" weight="1" />
+      <edge source="Gary Mirams" target="Chon Lok Lei" id="8" weight="3" />
+      <edge source="Gary Mirams" target="Kylie Beattie" id="9" weight="2" />
+      <edge source="Gary Mirams" target="Valentina Carapella" id="10" weight="1" />
+      <edge source="Rafel Bordas" target="Christopher Arthurs" id="11" weight="1" />
+      <edge source="Rafel Bordas" target="Valentina Carapella" id="12" weight="2" />
+      <edge source="Rafel Bordas" target="Kit Yates" id="13" weight="1" />
+      <edge source="Rafel Bordas" target="Lorenz Berger" id="14" weight="3" />
+      <edge source="Chon Lok Lei" target="Kylie Beattie" id="15" weight="2" />
+      <edge source="Kylie Beattie" target="Isabel Frost" id="16" weight="1" />
+      <edge source="Kylie Beattie" target="Jinwoo Leem" id="17" weight="1" />
+      <edge source="Kylie Beattie" target="Cristian Regep" id="18" weight="1" />
+      <edge source="Kylie Beattie" target="Nicola Trendel" id="19" weight="1" />
+      <edge source="Kylie Beattie" target="Tammo Rukat" id="20" weight="1" />
+      <edge source="Valentina Carapella" target="Oliver Britton" id="21" weight="1" />
+      <edge source="Valentina Carapella" target="Anna Muszkiewicz" id="22" weight="1" />
+      <edge source="Kit Yates" target="Gabriel Rosser" id="23" weight="1" />
+      <edge source="Lorenz Berger" target="Eoin Hyde" id="24" weight="4" />
+      <edge source="Gabriel Rosser" target="Jake Taylor-King" id="25" weight="1" />
+      <edge source="Jake Taylor-King" target="Linus Schumacher" id="26" weight="2" />
+      <edge source="Jake Taylor-King" target="Cristian Regep" id="27" weight="4" />
+      <edge source="Louise Dyson" target="Lloyd Chapman" id="28" weight="2" />
+      <edge source="Philip Gemmell" target="Oliver Britton" id="29" weight="1" />
+      <edge source="Philip Gemmell" target="Anna Muszkiewicz" id="30" weight="1" />
+      <edge source="Oliver Britton" target="Anna Muszkiewicz" id="31" weight="3" />
+      <edge source="Oliver Britton" target="Jakub Tomek" id="32" weight="1" />
+      <edge source="Mohamad Azim Ansari" target="Ashwin Kumar Jainarayanan" id="33" weight="1" />
+      <edge source="Mohamad Azim Ansari" target="Anna James-Bott" id="34" weight="1" />
+      <edge source="Ashwin Kumar Jainarayanan" target="Anna James-Bott" id="35" weight="2" />
+      <edge source="Ashwin Kumar Jainarayanan" target="Huw Colin York" id="36" weight="1" />
+      <edge source="Ashwin Kumar Jainarayanan" target="Scott Bonner" id="37" weight="1" />
+      <edge source="Anna James-Bott" target="Mihaela Smilova" id="38" weight="2" />
+      <edge source="Jonas Schluter" target="Katharine Coyte" id="39" weight="3" />
+      <edge source="Jonas Schluter" target="Rene Niehus" id="40" weight="1" />
+      <edge source="Konrad Krawczyk" target="Jinwoo Leem" id="41" weight="7" />
+      <edge source="Konrad Krawczyk" target="Matthew Raybould" id="42" weight="2" />
+      <edge source="Konrad Krawczyk" target="Alex Kovaltsuk" id="43" weight="5" />
+      <edge source="Konrad Krawczyk" target="Cristian Regep" id="44" weight="2" />
+      <edge source="Konrad Krawczyk" target="Jake Galson" id="45" weight="4" />
+      <edge source="Jinwoo Leem" target="Alex Kovaltsuk" id="46" weight="4" />
+      <edge source="Jinwoo Leem" target="Cristian Regep" id="47" weight="3" />
+      <edge source="Jinwoo Leem" target="Jake Galson" id="48" weight="6" />
+      <edge source="Jinwoo Leem" target="Isabel Frost" id="49" weight="1" />
+      <edge source="Jinwoo Leem" target="Nicola Trendel" id="50" weight="1" />
+      <edge source="Jinwoo Leem" target="Tammo Rukat" id="51" weight="1" />
+      <edge source="Matthew Raybould" target="Alex Kovaltsuk" id="52" weight="6" />
+      <edge source="Matthew Raybould" target="Jake Galson" id="53" weight="1" />
+      <edge source="Matthew Raybould" target="Brennan Abanades Kenyon" id="54" weight="4" />
+      <edge source="Alex Kovaltsuk" target="Jake Galson" id="55" weight="7" />
+      <edge source="Alex Kovaltsuk" target="Cristian Regep" id="56" weight="1" />
+      <edge source="Cristian Regep" target="Jake Galson" id="57" weight="1" />
+      <edge source="Cristian Regep" target="Isabel Frost" id="58" weight="1" />
+      <edge source="Cristian Regep" target="Nicola Trendel" id="59" weight="1" />
+      <edge source="Cristian Regep" target="Tammo Rukat" id="60" weight="1" />
+      <edge source="Cristian Regep" target="Isabel Wilkinson" id="61" weight="1" />
+      <edge source="Anna Frangou" target="Marketa Tomkova" id="62" weight="1" />
+      <edge source="Marketa Tomkova" target="Jakub Tomek" id="63" weight="7" />
+      <edge source="Isabel Frost" target="Nicola Trendel" id="64" weight="1" />
+      <edge source="Isabel Frost" target="Tammo Rukat" id="65" weight="1" />
+      <edge source="Nicola Trendel" target="Tammo Rukat" id="66" weight="1" />
+      <edge source="Jacob Bush" target="Joseph Mason" id="67" weight="1" />
+      <edge source="Mathew Stracy" target="Aleksander Zagajewski" id="68" weight="1" />
+      <edge source="Angelina Measures (Sekirnik)" target="David Ascough" id="69" weight="3" />
+      <edge source="Angelina Measures (Sekirnik)" target="Jos Kamps" id="70" weight="2" />
+      <edge source="Angelina Measures (Sekirnik)" target="Mustafa Moroglu" id="71" weight="2" />
+      <edge source="Angelina Measures (Sekirnik)" target="Amy Scorah" id="72" weight="2" />
+      <edge source="Angelina Measures (Sekirnik)" target="Joseph Bluck" id="73" weight="2" />
+      <edge source="David Ascough" target="Jos Kamps" id="74" weight="2" />
+      <edge source="David Ascough" target="Mustafa Moroglu" id="75" weight="2" />
+      <edge source="David Ascough" target="Robert Szpera" id="76" weight="1" />
+      <edge source="Jos Kamps" target="Mustafa Moroglu" id="77" weight="2" />
+      <edge source="Jos Kamps" target="Samuel Cahill" id="78" weight="1" />
+      <edge source="Jos Kamps" target="Danny Axford" id="79" weight="1" />
+      <edge source="Jos Kamps" target="James Linyard" id="80" weight="1" />
+      <edge source="Jos Kamps" target="Tika Malla" id="81" weight="3" />
+      <edge source="Jos Kamps" target="Mariska De Munnik" id="82" weight="2" />
+      <edge source="Mustafa Moroglu" target="Amy Scorah" id="83" weight="5" />
+      <edge source="Mustafa Moroglu" target="Joseph Bluck" id="84" weight="5" />
+      <edge source="Amy Scorah" target="Joseph Bluck" id="85" weight="11" />
+      <edge source="Joseph Bluck" target="Matteo Aldeghi" id="86" weight="1" />
+      <edge source="Stefan Verhoog" target="Michael Tilby" id="87" weight="1" />
+      <edge source="Michael Tilby" target="Holly Bunce" id="88" weight="1" />
+      <edge source="Michael Tilby" target="Robert Szpera" id="89" weight="1" />
+      <edge source="Huw Colin York" target="Liliana Barbieri" id="90" weight="4" />
+      <edge source="David Zollman" target="Samuel Cahill" id="91" weight="1" />
+      <edge source="Connor Sharp" target="Marie-Louise Francis" id="92" weight="3" />
+      <edge source="Gareth Langley" target="Mariska De Munnik" id="93" weight="2" />
+      <edge source="Gareth Langley" target="Tika Malla" id="94" weight="1" />
+      <edge source="Mariska De Munnik" target="Tika Malla" id="95" weight="3" />
+      <edge source="Tika Malla" target="Marc Moesser" id="96" weight="2" />
+      <edge source="Tika Malla" target="Tobias John" id="97" weight="7" />
+      <edge source="Tika Malla" target="Mihaela Smilova" id="98" weight="1" />
+      <edge source="Marion Schuller" target="Moses Moustakim" id="99" weight="1" />
+      <edge source="Oliver Meacock" target="Alessandro Alcinesio" id="100" weight="4" />
+      <edge source="Oliver Meacock" target="Idil Cazimoglu" id="101" weight="1" />
+      <edge source="Oliver Meacock" target="Thomas Meiller-Legrand" id="102" weight="3" />
+      <edge source="Alessandro Alcinesio" target="Idil Cazimoglu" id="103" weight="2" />
+      <edge source="Alessandro Alcinesio" target="Thomas Meiller-Legrand" id="104" weight="3" />
+      <edge source="Idil Cazimoglu" target="Solveig Van Der Vegt" id="105" weight="1" />
+      <edge source="Idil Cazimoglu" target="Charlotte Hoskin" id="106" weight="2" />
+      <edge source="Florian Klimm" target="Lyuba Bozhilova" id="107" weight="1" />
+      <edge source="Ruchuta Ardkhean" target="(YaoYao) Jane Xiong" id="108" weight="2" />
+      <edge source="(YaoYao) Jane Xiong" target="Kathryn Gwennyth Leslie" id="109" weight="1" />
+      <edge source="Oliver Coleman" target="Grace Roper" id="110" weight="1" />
+      <edge source="Anish Dattani" target="Jakke Neiro" id="111" weight="4" />
+      <edge source="Lydia France" target="Sofia Minano Gonzalez" id="112" weight="6" />
+      <edge source="Anna Thamm" target="Susanna Streubel" id="113" weight="1" />
+      <edge source="Robert Szpera" target="Holly Bunce" id="114" weight="1" />
+      <edge source="Robert Szpera" target="Alistair John Sterling" id="115" weight="2" />
+      <edge source="Nick Crang" target="Carolin Schulte" id="116" weight="2" />
+      <edge source="Carolin Schulte" target="Emmanouil Alexis" id="117" weight="4" />
+      <edge source="Vaanathi Sundaresan" target="Emma Bluemke" id="118" weight="1" />
+      <edge source="Vaanathi Sundaresan" target="Nicola Dinsdale" id="119" weight="4" />
+      <edge source="Emma Bluemke" target="Nicola Dinsdale" id="120" weight="2" />
+      <edge source="Nicola Dinsdale" target="Madeleine Wyburd" id="121" weight="3" />
+      <edge source="Fergus Boyles" target="Brennan Abanades Kenyon" id="122" weight="2" />
+      <edge source="Fergus Boyles" target="Marc Moesser" id="123" weight="1" />
+      <edge source="Marc Moesser" target="Tobias John" id="124" weight="2" />
+      <edge source="James Whittington" target="Jacob Bakermans" id="125" weight="4" />
+      <edge source="Mark Chonofsky" target="Anna Carbery" id="126" weight="1" />
+      <edge source="Anna Carbery" target="Thomas Hadfield" id="127" weight="2" />
+      <edge source="Anna Carbery" target="Jack Scantlebury" id="128" weight="2" />
+      <edge source="Anna Carbery" target="Tobias John" id="129" weight="1" />
+      <edge source="Thomas Rawson" target="Dessislava Veltcheva" id="130" weight="2" />
+      <edge source="Natasha Gillies" target="Joe Wynn" id="131" weight="7" />
+      <edge source="Natasha Gillies" target="Joe Morford" id="132" weight="2" />
+      <edge source="Natasha Gillies" target="Paris Jaggers" id="133" weight="2" />
+      <edge source="Joe Wynn" target="Joe Morford" id="134" weight="4" />
+      <edge source="Joe Wynn" target="Paris Jaggers" id="135" weight="4" />
+      <edge source="Joe Morford" target="Paris Jaggers" id="136" weight="4" />
+      <edge source="Nattapong Sanguankiattichai" target="Riccardo Soldan" id="137" weight="2" />
+      <edge source="Riccardo Soldan" target="Felix Homma" id="138" weight="1" />
+      <edge source="Samuel Aroney" target="Hayley Knights" id="139" weight="3" />
+      <edge source="Samuel Aroney" target="Brandon Ford" id="140" weight="2" />
+      <edge source="Hayley Knights" target="Brandon Ford" id="141" weight="2" />
+      <edge source="Shahaan Shafiq" target="Heather Jeffery" id="142" weight="2" />
+      <edge source="Steven Fiddaman" target="Stefan Dascalu" id="143" weight="5" />
+      <edge source="Steven Fiddaman" target="Holly Everest" id="144" weight="2" />
+      <edge source="Stefan Dascalu" target="Mahan Ghafari" id="145" weight="2" />
+      <edge source="Alexandra Casey" target="Samuel Caygill" id="146" weight="2" />
+      <edge source="Mpho Makola" target="Hazel Aitkenhead" id="147" weight="1" />
+      <edge source="Marianne Aspbury" target="Simon Marchant" id="148" weight="1" />
+      <edge source="Thomas Hadfield" target="Jack Scantlebury" id="149" weight="4" />
+      <edge source="Matthew Herdman" target="Dimitrios Kolokouris" id="150" weight="1" />
+      <edge source="Madeleine Wyburd" target="Felipe Moser" id="151" weight="2" />
+      <edge source="Zonghua Bo" target="Aidan Kerckhoffs" id="152" weight="1" />
+      <edge source="Ryan Emmett Peter McNamee" target="Helena Pickford" id="153" weight="6" />
+      <edge source="Helena Pickford" target="Lucy Harwood" id="154" weight="1" />
+      <edge source="Helena Pickford" target="Alistair John Sterling" id="155" weight="2" />
+      <edge source="Pearse Solon" target="Mihai Viorel Popescu" id="156" weight="2" />
+      <edge source="Tobias John" target="Mihaela Smilova" id="157" weight="1" />
+      <edge source="Tobias John" target="Raphael Reinbold" id="158" weight="3" />
+      <edge source="Jai Bolton" target="Jacques Bouvier" id="159" weight="2" />
+      <edge source="Jai Bolton" target="Jochem Nielsen" id="160" weight="2" />
+      <edge source="Jai Bolton" target="Anastasia Unitt" id="161" weight="2" />
+      <edge source="Jacques Bouvier" target="Jochem Nielsen" id="162" weight="2" />
+      <edge source="Jacques Bouvier" target="Anastasia Unitt" id="163" weight="2" />
+      <edge source="Jochem Nielsen" target="Anastasia Unitt" id="164" weight="2" />
+      <edge source="Antoine de Gombert" target="Xinlan Aloise Ford Cook" id="165" weight="2" />
+      <edge source="Andrea Chatrian" target="Ka Ho Tam" id="166" weight="2" />
+    </edges>
+  </graph>
+</gexf>

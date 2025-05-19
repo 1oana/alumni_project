@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+from time import sleep
 
 limit = 1000
 
@@ -27,6 +28,43 @@ def save_json(filename, data):
 #########
 # API
 #########
+
+def scrape(orcids, papers_all, output_fol, limit=limit):
+    # check which authors need to be looked up
+    to_lookup = orcids[~orcids["orcid"].isin(papers_all.orcid)].reset_index(drop=True)
+
+    author_dic = {
+        "name": [],
+        "orcid": [],
+        "ss_id": [],
+        "dois": [],
+        "titles": [],
+        "journals": [],
+        "years": [],
+        "citation_count": [],
+    }
+
+    for i, row in to_lookup.iterrows():
+        if i >= limit:
+            break
+        else:
+            pass
+        name = row["name"].strip()
+        ORCID = row["orcid"].strip()
+        print(name, ORCID)
+        # ORCID = ut.get_orcids(name, limit)
+        # print(ORCID)
+        # orcids_dict['name'].append(name)
+        # orcids_dict['orcid'].append(ORCID)
+
+        sleep(5)
+        # scrape = ut.orcid_open_alex(ORCID, author_dic, name)
+        scrape = ut.get_papers_semantic(name, ORCID)
+        with open(f"{output_fol}scrape.json", "w") as f:
+            json.dump(scrape, f)
+    papers_df = pd.DataFrame(author_dic)
+    papers = pd.concat([papers_all, papers_df], ignore_index=True)
+    papers.to_csv(f"{output_fol}papers_all.csv", index=False)
 
 
 def get_papers_elsevier(author_name, affiliation, limit=limit):
@@ -179,109 +217,6 @@ def get_papers_cross_ref(author_name, affiliation, limit=limit):
         print(paper["author"])
         print("\n\n\n")
         print("=========================================")
-
-
-def name_open_alex(AUTHOR_NAME, AFFILIATION):
-    if isinstance(AUTHOR_NAME, list):
-        AUTHOR_NAME = "+".join(AUTHOR_NAME)
-    elif isinstance(AUTHOR_NAME, str):
-        pass
-    else:
-        print("Author name must be a string or a list of strings")
-        return
-    # Search author
-    author_url = f"https://api.openalex.org/authors?search={AUTHOR_NAME}+{AFFILIATION}"
-    response = requests.get(author_url)
-    author_data = response.json()["results"]
-    print(response.json()["results"])
-
-    if author_data:
-        author_id = author_data[0]["id"]
-        papers_url = f"https://api.openalex.org/works?author.id={author_id}"
-        papers_response = requests.get(papers_url)
-        papers = papers_response.json()["results"]
-
-        for paper in papers[:5]:  # Limit output
-            print(
-                f"{paper['title']} ({paper['publication_year']}) - "
-                f"{paper.get('host_venue', {}).get('name', 'Unknown')}"
-            )
-    else:
-        print("Author not found.")
-
-
-def orcid_open_alex(ORCID, author_dic, name_given, aff="University of Oxford"):
-    # Search author
-    orcid_text = f"https://orcid.org/{ORCID}"
-    author_url = f"https://api.openalex.org/authors/{orcid_text}"
-    print(author_url)
-    response = requests.get(author_url)
-    if response.status_code == 200:
-        author_data = response.json()
-
-        if author_data:
-            author_id = author_data["id"]
-            print(author_id)
-            papers_url = (
-                f"https://api.openalex.org/works?filter=author.id:{author_id}+{aff}"
-            )
-            papers_response = requests.get(papers_url)
-            papers = papers_response.json()["results"]
-
-            for paper in papers:
-                try:
-                    journal = paper["locations"][0]["source"]["display_name"]
-                except Exception as e:
-                    print(e)
-                    journal = "Unknown"
-
-                author_dic["dois"].append(paper["doi"])
-                author_dic["name"].append(author_data["display_name"])
-                author_dic["orcid"].append(ORCID)
-                author_dic["openalex_id"].append(author_id)
-                author_dic["titles"].append(paper["title"])
-                author_dic["journals"].append(journal)
-                author_dic["years"].append(paper["publication_year"])
-                author_dic["citation_count"].append(paper["cited_by_count"])
-
-        else:
-            print("Author not found.")
-
-        return author_dic
-    else:
-        print(f"Error {response.status_code}: {response.text}")
-        author_dic["dois"].append("Error")
-        author_dic["name"].append(name_given)
-        author_dic["orcid"].append(ORCID)
-        author_dic["openalex_id"].append("Error")
-        author_dic["titles"].append("Error")
-        author_dic["journals"].append("Error")
-        author_dic["citation_count"].append("Error")
-        author_dic["years"].append("Error")
-        return None
-
-
-def get_orcids(name, limit):
-    url = f"https://pub.orcid.org/v3.0/search/?q={name}&rows={limit}"
-    headers = {"Accept": "application/json"}
-
-    response = requests.get(url, headers=headers)
-
-    if response.status_code == 200:
-        data = response.json()
-        results = data.get("result", [])
-
-        if results:
-            for person in results[:1]:
-                orcid_id = person["orcid-identifier"]["path"]
-                print(f"ORCID: https://orcid.org/{orcid_id}")
-                return orcid_id
-        else:
-            print("No ORCID ID found for this name.")
-            return None
-    else:
-        print(f"Error {response.status_code}: {response.text}")
-        return None
 
 
 def plotmiss(Xy, n, cmap, label_list, cat_cols=[], filename=None, savefig=False):
